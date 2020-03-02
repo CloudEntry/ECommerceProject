@@ -11,30 +11,39 @@
 		<section id="home-page">
 
 			<nav id="menu" role="navigation">
-				<div class="brand">&Aopf;</div>            
+				<div class="brand">&Aopf;</div>
+				<div class="search-container">
+      				<input type="text" placeholder="Search our store...">
+			  		<button type="submit"><i class="fa fa-search"></i></button>
+				</div>          
 		        <ul>
-		            <li><a href="#">Item 1</a></li>
-		            <li><a href="#">Item 2</a></li>
-		            <li><a href="#">Item 3</a></li>
+		        	<hr>
+		            <li><a href="#">Home</a></li><hr>
+		            <li><a href="#">Catalog</a></li><hr>
+		            <li><a href="#">Contact Us</a></li><hr>
+		            <li><a href="#">Terms of Service</a></li><hr>
+		            <li><a href="#">Refunds & Cancellations</a></li><hr>
+		            <li><a href="#">Privacy Policy</a></li><hr>
+		            
 		        </ul>
 			</nav>
 
-			<div class="promo-bar">50% OFF Sale Ending Soon</div>
+			<div id="promo-bar">50% OFF Sale Ending Soon</div>
 
-			<section class="content">
+			<section id="content">
 
 				<div class="nav-bar">
-					<div class="hamburger" onclick="ham_menu()">
-				        <div class="hb-divs"></div>
-				        <div class="hb-divs"></div>
-				        <div class="hb-divs"></div>
+					<div id="hamburger" onclick="ham_menu()">
+				        <div id="hbd1" class="hb-divs"></div>
+				        <div id="hbd2" class="hb-divs"></div>
+				        <div id="hbd3" class="hb-divs"></div>
 				      </div>
-					<h1>The Shop</h1>
+					<h1> <span id="shop-name">The Shop</span></h1>
 					<a id="cart-link" href="#"><i class="fas fa-shopping-cart"></i></a>
 				</div>
 
-				<div class="content-center">
-					<p>SOME PRODUCT</p>
+				<div id="home-page-content" class="content-center">
+					<p>SPRING SALE<br>- 50% OFF -</p>
 					<button>SHOP NOW</button>
 				</div>
 
@@ -42,15 +51,15 @@
 
 		</section>
 
-		<section class="product-page">
+		<section id="product-page">
 	      	<div class="content-center">
 				<span style="color:black;font-size:50px;">Product Page Content</span>
 			</div>
 	    </section>
 
-	    <section class="footer">
+	    <section id="footer">
 	    	<div class="content-center">
-				<span style="color:black;font-size:50px;">Copyright, The Shop</span>
+				<span style="color:black;font-size:40px;"><i class="far fa-copyright"></i> The Shop. 2020</span>
 			</div>
 	    </section>
 	</div>
