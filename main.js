@@ -4,7 +4,7 @@ function ham_menu(scrolling) {
 	hidden ? show_menu() : hide_menu();
 }
 
-document.getElementById("content").onscroll = function() { hide_menu(); }
+// document.getElementById("content").onscroll = function() { hide_menu(); }
 
 window.onload = function() { 
 	setTimeout(function(){ document.getElementById("shop-name").style.visibility = "visible"; }, 200);
@@ -46,7 +46,7 @@ function show_menu() {
 	document.getElementById("menu").style.left = "0";
 	document.getElementById("home-page").style.width = "100%";
 	document.getElementById("home-page").style.marginLeft = "1192px";
-	document.getElementById("home-page").style.height = "200vh";
+	document.getElementById("home-page").style.height = "300vh";
 	document.getElementById("cart-link").style.display = "none";
 	document.getElementById("shop-name").style.display = "none";
 	document.getElementById("promo-bar").style.display = "none";
